@@ -2,7 +2,7 @@
 // which can be accessed by var.project_id
 variable "project_id" {
   description = "The project ID to host the cluster in"
-  default     = "tensile-axiom-482205-g8"
+  default     = "iac-lab-488408"
 }
 
 variable "region" {
@@ -12,12 +12,12 @@ variable "region" {
 
 variable "bucket" {
   description = "GCS bucket for MLE course"
-  default     = "bucket-aide1-k8-khoa-nguyen-424"
+  default     = "iac-lab-488408-mlops-khoa-099"
 }
 
 variable "ssh_keys" {
     description = "default value of the ssh key"
-    default = "khoa.work424:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPIANcA/UG85Z7isORINIx5vPM8CbXCp0S/zofSVQmH5 khoa.work424@gmail.com"
+    default = "khoai345678:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDn+3tC7uBu5tyKwZYsNDLpdGMnSlnMqi1pVaSQ8IIOM khoai345678@gmail.com"
 }
 
 variable "instance_name" {

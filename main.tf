@@ -36,7 +36,7 @@ resource "google_container_cluster" "my-gke" {
 }
 
 
-resource "google_storage_bucket" "bucket_mlops1" {
+resource "google_storage_bucket" "mlops-bucket" {
   name          = var.bucket
   location      = var.region
   force_destroy = true
